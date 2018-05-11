@@ -99,10 +99,10 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 if(isChecked){
                     if((HardwareControler.buzzer_open()) < 0 )
-                        Log.e(TAG, "onCheckedChanged: buzzer_open error");
+                        Log.e(TAG, "onCheckedChanged: Buzzer_open error");
                 }else{
                     if((HardwareControler.buzzer_close()) <0 )
-                        Log.e(TAG, "onCheckedChanged: buzzer_close error");
+                        Log.e(TAG, "onCheckedChanged: Buzzer_close error");
                 }
             }
         });
