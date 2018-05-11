@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,2">
+
+        <TableRow >
+
+            <TextView
+                android:id="@+id/textViewOutput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_span="3"
+                android:text="OUTPUT GPIO"
+                android:textSize="24sp" />
+        </TableRow>
+        <TableRow >
+            <TextView
+                android:id="@+id/textViewOuput1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:text="GPIO1(/dev/chipsee-gpio1)"
+                />
+            <Switch
+                android:id="@+id/switchOutput1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                />
+
+            <TextView
+                android:id="@+id/textViewOuput2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:text="GPIO2(/dev/chipsee-gpio2)" />
+
+            <Switch
+                android:id="@+id/switchOutput2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                />
+        </TableRow>
+        <TableRow >
+            <TextView
+                android:id="@+id/textViewOuput3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:text="GPIO3(/dev/chipsee-gpio3)"
+                />
+            <Switch
+                android:id="@+id/switchOutput3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                />
+
+            <TextView
+                android:id="@+id/textViewOuput4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:text="GPIO4(/dev/chipsee-gpio4)" />
+
+            <Switch
+                android:id="@+id/switchOutput4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                />
+        </TableRow>
+        <TableRow >
+            <TextView
+                android:id="@+id/textViewBuzzer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:text="Buzzer(/dev/buzzer)"
+                />
+            <Switch
+                android:id="@+id/switchBuzzer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                />
+        </TableRow>
+
+        <TableRow >
+
+            <TextView
+                android:id="@+id/textViewInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:layout_span="3"
+                android:text="INPUT GPIO"
+                android:textSize="24sp" />
+        </TableRow>
+        <TableRow >
+            <TextView
+                android:id="@+id/textViewInput5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:text="GPIO5(/dev/chipsee-gpio5)"
+                />
+            <ImageView
+                android:id="@+id/imageViewInput5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:src="@drawable/io_low"
+                />
+
+            <TextView
+                android:id="@+id/textViewInput6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:text="GPIO6(/dev/chipsee-gpio6)" />
+
+            <ImageView
+                android:id="@+id/imageViewInput6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:src="@drawable/io_low"
+                />
+        </TableRow>
+        <TableRow >
+            <TextView
+                android:id="@+id/textViewInput7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:text="GPIO7(/dev/chipsee-gpio7)"
+                />
+            <ImageView
+                android:id="@+id/imageViewInput7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:src="@drawable/io_low"
+                />
+
+            <TextView
+                android:id="@+id/textViewInput8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="18sp"
+                android:text="GPIO8(/dev/chipsee-gpio8)" />
+
+            <ImageView
+                android:id="@+id/imageViewInput8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:src="@drawable/io_low"
+                />
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>
